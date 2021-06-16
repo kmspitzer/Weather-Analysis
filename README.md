@@ -19,6 +19,7 @@ Once we have created the dataframe, we use the data to create scatter plots depi
     Cloudiness (%) vs. Latitude
     Wind Speed (mph) vs. Latitude
 
+![image](/output_data/LatvHumidity_scatter01-07-2021.png)
 
 We then perform linear regression on and plot the following relationships:
 
@@ -30,6 +31,9 @@ We then perform linear regression on and plot the following relationships:
     Southern Hemisphere - Cloudiness (%) vs. Latitude
     Northern Hemisphere - Wind Speed (mph) vs. Latitude
     Southern Hemisphere - Wind Speed (mph) vs. Latitude
+    
+    
+ ![image](/output_data/Northern_LatvHumidity_linregress01-07-2021.png)
 
 A PNG image is saved in the output_data directory for each scatter plot.
 
@@ -52,6 +56,8 @@ Any rows where there is no hotel within 5000 meters of the city are dropped.
 
 
 The hotels are plotted on top of the humidity heatmap with each pin containing the Hotel Name, City, and Country.
+
+![image](/output_data/VacationPy_heatmap.png)
 
 
 Outputs:
